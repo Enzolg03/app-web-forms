@@ -30,7 +30,7 @@ public class FormPrimoController {
         return "formPrimo";
     }
     private Boolean esPrimo(Integer numero){
-        Integer contador = 1;
+        Integer contador = 0;
         for(int i = 1; i <= numero; i++){
             if((numero % i) == 0){
                 contador++;
